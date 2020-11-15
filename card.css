@@ -1,0 +1,43 @@
+body { 
+    font-family: Helvetica, sans-serif;
+    background-image: url("desktop.jpg");
+    background-color: #ccc;
+    color: #222;
+    margin-top: 100px;
+}
+
+h1 {
+    margin: 15px 0;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 100;
+}
+
+.card {
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: rgba(0,0,0 0.1) 0 5px 20px;
+    border: 2px solid #aaa;
+}
+
+.Sounds {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.Sounds li {
+    width: 50px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.Sounds li a img:hover {
+    opacity: .8;
+    transition: opacity ease-in-out .2s;
+}
